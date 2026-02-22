@@ -16,15 +16,30 @@ Built for students, developers, analysts, and beginners who want fast, reliable 
 
 ---
 
-## 🚀 What's New in v0.2.0
+## 🚀 What's New in v0.2.3
 
--  **Labeled probability predictions**
--  **Auto-save via `save=` parameter**
--  **Automatic `.pkl` extension handling**
--  **Robust DataFrame prediction support**
--  **Built-in sample data generators**
--  **Unified prediction pipeline**
+### ✨ Synthetic Dataset Generator (new)
 
+pyezml now includes a powerful **Synthetic Dataset Generator** to help you quickly create realistic tabular data for testing, benchmarking, and learning machine learning workflows.
+
+### 🚀 What you can do
+
+- 📊 Generate data from statistical distributions  
+- 🧮 Automatically create polynomial, trig, and interaction features  
+- 🎯 Build synthetic targets for regression and classification  
+- 🔁 Reproduce datasets with fixed random seeds  
+- ⚡ Create rich ML-ready datasets in one line 
+
+
+### 🔥 Quick Example
+
+
+```bash
+from ezml import make_mathematical_synthetic_data
+
+df = make_mathematical_synthetic_data(n_samples=1000)
+
+````
 ---
 
 ## 🚀 Installation

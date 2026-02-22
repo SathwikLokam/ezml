@@ -19,4 +19,4 @@ __all__ = [
     "make_mathematical_synthetic_data",
     "list_supported_distributions",
 ]
-__version__ = "0.2.0"
+__version__ = "0.2.3"
